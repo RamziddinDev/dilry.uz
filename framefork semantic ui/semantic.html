@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Script-Type" content="text/jscript" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" class="ui" href="http://semantic-ui.com/build/packaged/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="http://semantic-ui.com/stylesheets/semantic.css">
+    <script src="jquery.min.js"></script>
+    <script src="history.js"></script>
+    <script src="easing.js"></script>
+    <script src="ace.js"></script>
+    <script src="tablesort.js"></script>
+    <script src="waypoints.js"></script>
+    <script src="semantic.min.js"></script>
+    <script src="semantic.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="menu">
+    <div class="ui tiered menu">
+        <div class="menu">
+            <a class="active item">
+                <i class="users icon"></i> Friends
+            </a>
+            <a class="item">
+                <i class="grid layout icon"></i> Browse
+            </a>
+            <a class="item">
+                <i class="mail icon"></i> Messages
+            </a>
+            <div class="right menu">
+                <div class="item">
+                    <div class="ui icon input">
+                        <input type="text" placeholder="Search...">
+                        <i class="search icon"></i>
+                    </div>
+                </div>
+                <div class="ui dropdown item">
+                    More <i class="icon dropdown"></i>
+                    <div class="menu">
+                        <a class="item"><i class="edit icon"></i> Edit Profile</a>
+                        <a class="item"><i class="globe icon"></i> Choose Language</a>
+                        <a class="item"><i class="settings icon"></i> Account Settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui sub menu">
+            <a class="active item">Search</a>
+            <a class="item">Add</a>
+            <a class="item">Remove</a>
+        </div>
+    </div>
+    <script>
+        $('.ui.dropdown')
+            .dropdown();
+    </script>
+</body>
+
+</html>

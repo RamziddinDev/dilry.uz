@@ -1,0 +1,345 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+section {
+    transition: all 1s;
+    display: grid;
+    grid-template-columns: 46.3% 54.7%;
+    grid-template-rows: 1fr;
+}
+
+.section_left {
+    background: #00C65E;
+    width: 626px;
+    height: 900px;
+}
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37.1819px;
+    line-height: 120%;
+    /* identical to box height, or 45px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container_section {
+    margin-left: 90px;
+    padding-top: 90px;
+}
+
+.logo_bottom_text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+    display: flex;
+    margin-top: -20px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.fa-hand-holding-dollar,
+.text-icon {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 150%;
+}
+
+.text_servises_1,
+.text_servises_2 {
+    display: flex;
+}
+
+.text-icon,
+.text_icon {
+    margin-left: 8px;
+}
+
+.text_icon {
+    margin-left: 20px;
+}
+
+.fa-bag-shopping,
+.text_icon {
+    color: #FFFFFF;
+    font-size: 150%;
+    margin-top: 10px;
+}
+
+.fas {
+    color: #FFFFFF;
+    font-size: 150%;
+    margin-top: 10px;
+    width: 17px;
+    height: auto;
+}
+
+.sign_up {
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    /* identical to box height, or 38px */
+    align-items: center;
+    text-align: center;
+    color: #363A45;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px auto;
+    margin-top: 200px;
+}
+
+.section_right {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0%;
+    align-items: center;
+}
+
+.item_sign {
+    width: 304px;
+    height: 42px;
+    /* Menu style reg */
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Dark grey */
+    color: #262626;
+}
+
+.input_nomer {
+    width: 304px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #DADCDC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.input_nomer::placeholder {
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #DADCDC;
+    padding: 15px 10px;
+}
+
+form {
+    display: block !important;
+}
+
+.input_button {
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 115px;
+    /* Bright green */
+    background: #00C65E;
+    border-radius: 10px;
+    /* Inside auto layout */
+    margin: 30px auto;
+    border: #00C65E;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    /* standart white */
+    color: #FFFFFF;
+}
+
+.parol {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 70px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    /* Bright green */
+    color: #00C65E;
+    /* standart white */
+    background: #FFFFFF;
+    border: 1px solid #00C65E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px auto;
+}
+
+.parol:hover {
+    background-color: #00C65E;
+    color: #FFFFFF;
+}
+
+.parol:active {
+    background-color: #1fb465;
+    color: #FFFFFF;
+}
+
+.or {
+    font-family: TT Norms;
+    font-size: 14px;
+    /* identical to box height, or 21px */
+    /* Dark grey */
+    color: #262626;
+}
+
+.d-flex {
+    display: flex;
+    width: auto;
+}
+
+.fa-brands {
+    margin: 5px;
+    color: #FFFFFF;
+    background-color: #00C65E;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 1s;
+}
+
+.brands {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.vector {
+    top: 20%;
+    right: 10%;
+}
+
+.vector2 {
+    bottom: 20%;
+    right: 40%;
+    transform: rotate(130deg);
+}
+
+.vector2 {
+    bottom: 40%;
+    right: 40%;
+    transform: rotate(190deg);
+}
+
+.active_page {
+    margin-top: -200%;
+}
+
+.width {
+    width: 305px;
+    height: 21px;
+    display: grid;
+}
+
+.d-block {
+    display: block;
+    margin-top: 10px;
+}
+
+.name {
+    text-align: left;
+    /* Menu style bold */
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    display: flex;
+    align-items: center;
+    /* Dark grey */
+    color: #262626;
+}
+
+.input {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    position: static;
+    width: 304px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DADCDC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+input:focus {
+    border-color: #DADCDC;
+}
+
+svg,
+i {
+    stroke-dashoffset: 400;
+    stroke: white;
+    fill: transparent;
+    stroke-width: 1pt;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page_2 {
+    margin-top: -200%;
+    display: none;
+}
+
+.page_3 {
+    margin-top: -200%;
+    display: none;
+}
